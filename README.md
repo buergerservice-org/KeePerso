@@ -1,4 +1,4 @@
-# KeePerso : KeePass2 Plugin
+# KeePerso
 authentication with German Personalausweis. This plugin generates a hash-key from personalausweis-data to use with Masterpassword for a two-factor-authentication  
 Version: 0.7  
 Author: buergerservice.org e.V. <KeePerso@buergerservice.org>  
