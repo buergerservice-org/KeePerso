@@ -1,12 +1,12 @@
 # KeePerso : KeePass2 Plugin
-##authentication with German Personalausweis. This plugin generates a hash-key from personalausweis-data to use with Masterpassword for a two-factor-authentication
+authentication with German Personalausweis. This plugin generates a hash-key from personalausweis-data to use with Masterpassword for a two-factor-authentication
 Version: 0.7
 Author: buergerservice.org e.V. <KeePerso@buergerservice.org>
 Language: English
 
 
 -------------
-##requirements:
+requirements:
 -------------
 KeePass2,
 Plugin KeePerso (this plugin is not for KeePass1)
@@ -19,14 +19,14 @@ internetaccess
 
 
 -------------
-##installation:
+installation:
 -------------
 please read "Plugin Installation and Uninstallation" in KeePass Help Center:
 https://keepass.info/help/v2/plugins.html
 
 
 -----------
-##how to use:
+how to use:
 -----------
 install Plugin - see part installation above
 check in KeePass2 -> Menu -> Tools -> Plugins if Plugin KeePerso is shown
@@ -54,7 +54,7 @@ if the key is successful generated you get a window that says the key is ready. 
 
 
 ----------------------------
-##known problems and questions
+known problems and questions
 ----------------------------
 if i start KeePass i get errormessage from KeePass
 	- check if your computer is 64 bit, cause the plugin is 64bit ->  start systeminformation
@@ -89,7 +89,7 @@ from Personalausweis and the attacker writes them direct in the code and generat
 
 
 ---------------
-##versionhistory:
+versionhistory:
 ---------------
 0.7 better workflow, new errormessage
 0.6.5 german umlauts in personaldata corrected
@@ -107,7 +107,7 @@ from Personalausweis and the attacker writes them direct in the code and generat
 
 
 -----
-##build
+build
 -----
 source was build with Visual Studio 2019
 for building put KeePass-Portable in the KeePass-directory
@@ -116,7 +116,7 @@ libraries boost, openssl, jsoncpp
 
 
 -------
-##license
+license
 -------
 /*
   KeePerso - A Plugin for german Personalausweis
